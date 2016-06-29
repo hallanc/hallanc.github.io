@@ -18,7 +18,7 @@ Released   : 20081009
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style/creativeinspiration.css" />
 
-<title>Registration page</title>
+<title>Email Verification page</title>
 <script src="//cdn.loginradius.com/hub/prod/js/LoginRadiusRaaS.js"></script>
 </head>
 
@@ -26,7 +26,7 @@ Released   : 20081009
     <div id="page">
 		
         <div id="header">
-        	<div id="headerTitle">Registration</div>
+        	<div id="headerTitle">Email Verification</div>
             <div id="headerSubText"></div>
             
         </div>
@@ -36,27 +36,14 @@ Released   : 20081009
            	<div class="navLink"><a href="social.html">social login</a></div>
             <div class="navLink"><a href="register.html">register</a></div>
             <div class="navLink"><a href="password_reset.html">forgot password</a></div>
-    
+          
       </div>
-        <div class="contentTitle"><h1>Registration Form</h1></div>
+        <div class="contentTitle"><h1></h1></div>
         <div class="contentText">
-          <div id="registration-container">
-		  <script src="option.js"></script>
-			<script type="text/javascript">
-			$LR.util.ready(function() {
-			var raasoption = {};
-			raasoption.apikey = "94dd8825-669d-44f3-ae1a-5f0828016ae6";
-			LoginRadiusRaaS.init(raasoption, 'registration', function(response) {
-			// On Success
-			console.log(response);
-			}, function(errors) {
-			// On Errors
-			console.log(errors);
-			}, "registration-container");
-			});
-		  </div>
-        </div>
          
+        </div>
+        
 </div>
+       
 </body>
 </html>

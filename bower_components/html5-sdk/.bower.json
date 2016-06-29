@@ -1,0 +1,38 @@
+{
+  "name": "html5-sdk",
+  "homepage": "https://github.com/LoginRadius/html5-sdk",
+  "main": "lib/LoginRadiusSDK.2.0.1.js",
+  "authors": [
+    {
+      "name": "LoginRadius Team",
+      "email": "developers@loginradius.com"
+    }
+  ],
+  "keywords": [
+    "loginradius",
+    "sociallogin",
+    "facebook",
+    "social",
+    "login",
+    "google",
+    "twitter"
+  ],
+  "description": "LoginRadius HTML5/JS SDK help you to integrate Social Login such as Facebook, Google, Twitter and over 20 more on a HTML5 website.",
+  "license": "MIT",
+  "ignore": [
+    "demo",
+    "README.md",
+    "bower.json",
+    "README.md"
+  ],
+  "_release": "774b1eff5f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "774b1eff5f850845988fec33462117c182effd18"
+  },
+  "_source": "https://github.com/LoginRadius/html5-sdk.git",
+  "_target": "*",
+  "_originalSource": "html5-sdk",
+  "_direct": true
+}
